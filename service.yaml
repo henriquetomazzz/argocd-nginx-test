@@ -3,7 +3,6 @@ kind: Service
 metadata:
   name: nginx-service
 spec:
-  replicas: 3
   selector:
     app: nginx
   ports:
